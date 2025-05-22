@@ -1,0 +1,41 @@
+@import "./index";
+
+.wrapper{
+  display: block;
+  width: 100%;
+  &__headline{
+    @include font-size(headline2);
+  }
+  &__newsfeed-cont{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: nowrap;
+
+  }
+}
+
+.newsfeed-item{
+  flex-grow: 1;
+}
+
+@include media-breakpoint-mobile-only{
+
+}
+
+@include media-breakpoint-up(mobile){
+
+}
+
+@include media-breakpoint-up(tablet){
+
+}
+
+@include media-breakpoint-up(labtop){
+
+}
+
+@include media-breakpoint-up(desktop){
+
+}

@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rm -rf .next; contentlayer build && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
-    "build": "contentlayer build && NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
-    "start": "NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_ENV=production next start -p 3000",
+    "dev": "rimraf .next && contentlayer build && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3000",
+    "build": "contentlayer build && cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "cross-env NEXT_PRIVATE_LOCAL_WEBPACK=true NODE_ENV=production next start -p 3000",
     "lint": "next lint",
-    "clean": "rm -rf node_modules && rm -rf .next && rm -rf .turbo"
+    "clean": "rimraf node_modules && rimraf .next && rimraf .turbo"
   },
   "dependencies": {
     "@repo/data-context": "*",

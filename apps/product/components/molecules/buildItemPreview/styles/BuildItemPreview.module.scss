@@ -1,0 +1,14 @@
+@import "./index";
+
+.card{
+  display: flex;
+  &--container{ // modifier container role
+
+    &:last-child{
+      flex: auto;
+    }
+  }
+
+
+
+}

@@ -1,0 +1,68 @@
+@import "./index.scss";
+
+.card{
+  @include base-setup();
+}
+.card-header{
+  @include set-initialize();
+  &__title{
+    @include font-size(headline4);
+  }
+  &__description{
+    @include font-size(caption);
+  }
+}
+.card-content{
+  @include set-initialize();
+  @include font-size(caption);
+  padding-top: 8px;
+}
+
+@include media-breakpoint-mobile-only{
+
+}
+
+@include media-breakpoint-up(mobile){
+  .card{
+    border-radius: 4px;
+    &__title{
+    }
+    &_description{
+
+    }
+  }
+}
+
+@include media-breakpoint-up(tablet){
+  .card{
+    border-radius: 4px;
+    &__title{
+    }
+    &_description{
+
+    }
+  }
+}
+
+@include media-breakpoint-up(tablet){
+  .card{
+    border-radius: 4px;
+    &__title{
+    }
+    &_description{
+
+    }
+  }
+}
+
+@include media-breakpoint-up(desktop){
+  .card{
+    border-radius: 4px;
+    &__title{
+      @include font-size(headline1)
+    }
+    &_description{
+
+    }
+  }
+}

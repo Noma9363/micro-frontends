@@ -1,0 +1,392 @@
+[
+  {
+    "value": "Role1",
+    "icon": "sword",
+    "title": "Ultimate Lane Domination Guide",
+    "tagList": {
+      "timeLine": "25:30:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 127,
+    "uploadDate": "2025-05-22T09:15:00Z",
+    "uploader": "ProGamer123"
+  },
+  {
+    "value": "Role1",
+    "icon": "shield",
+    "title": "Early Game Farming Techniques",
+    "tagList": {
+      "timeLine": "18:45:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 89,
+    "uploadDate": "2025-05-21T14:22:00Z",
+    "uploader": "FarmKing"
+  },
+  {
+    "value": "Role1",
+    "icon": "bow",
+    "title": "Advanced Positioning Strategies",
+    "tagList": {
+      "timeLine": "32:15:00",
+      "members": 4,
+      "difficulty": "hard"
+    },
+    "likes": 203,
+    "uploadDate": "2025-05-20T11:30:00Z",
+    "uploader": "TacticalMaster"
+  },
+  {
+    "value": "Role1",
+    "icon": "helmet",
+    "title": "Beginner's Lane Control",
+    "tagList": {
+      "timeLine": "12:00:00",
+      "members": 1,
+      "difficulty": "easy"
+    },
+    "likes": 45,
+    "uploadDate": "2025-05-19T16:45:00Z",
+    "uploader": "NewbieHelper"
+  },
+  {
+    "value": "Role1",
+    "icon": "axe",
+    "title": "Counter-picking Made Simple",
+    "tagList": {
+      "timeLine": "22:30:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 156,
+    "uploadDate": "2025-05-18T08:12:00Z",
+    "uploader": "CounterPro"
+  },
+  {
+    "value": "Role1",
+    "icon": "magic",
+    "title": "Lane Freezing Fundamentals",
+    "tagList": {
+      "timeLine": "15:20:00",
+      "members": 1,
+      "difficulty": "easy"
+    },
+    "likes": 78,
+    "uploadDate": "2025-05-17T13:25:00Z",
+    "uploader": "FreezeExpert"
+  },
+  {
+    "value": "Role1",
+    "icon": "dagger",
+    "title": "Aggressive Trading Patterns",
+    "tagList": {
+      "timeLine": "28:45:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 234,
+    "uploadDate": "2025-05-16T10:18:00Z",
+    "uploader": "AggroKing"
+  },
+  {
+    "value": "Role1",
+    "icon": "potion",
+    "title": "Resource Management Tips",
+    "tagList": {
+      "timeLine": "19:30:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 92,
+    "uploadDate": "2025-05-15T15:40:00Z",
+    "uploader": "ResourceGuru"
+  },
+  {
+    "value": "Role1",
+    "icon": "crown",
+    "title": "Mid Game Transition Guide",
+    "tagList": {
+      "timeLine": "35:10:00",
+      "members": 5,
+      "difficulty": "hard"
+    },
+    "likes": 187,
+    "uploadDate": "2025-05-14T12:05:00Z",
+    "uploader": "TransitionMaster"
+  },
+  {
+    "value": "Role1",
+    "icon": "boots",
+    "title": "Roaming Essentials",
+    "tagList": {
+      "timeLine": "14:15:00",
+      "members": 2,
+      "difficulty": "easy"
+    },
+    "likes": 63,
+    "uploadDate": "2025-05-13T17:30:00Z",
+    "uploader": "RoamRanger"
+  },
+  {
+    "value": "Role2",
+    "icon": "staff",
+    "title": "Support Synergy Mastery",
+    "tagList": {
+      "timeLine": "26:40:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 145,
+    "uploadDate": "2025-05-22T07:20:00Z",
+    "uploader": "SynergyPro"
+  },
+  {
+    "value": "Role2",
+    "icon": "orb",
+    "title": "Vision Control Excellence",
+    "tagList": {
+      "timeLine": "21:25:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 198,
+    "uploadDate": "2025-05-21T11:45:00Z",
+    "uploader": "VisionKing"
+  },
+  {
+    "value": "Role2",
+    "icon": "crystal",
+    "title": "Peeling Techniques 101",
+    "tagList": {
+      "timeLine": "16:50:00",
+      "members": 2,
+      "difficulty": "easy"
+    },
+    "likes": 76,
+    "uploadDate": "2025-05-20T14:15:00Z",
+    "uploader": "PeelMaster"
+  },
+  {
+    "value": "Role2",
+    "icon": "wand",
+    "title": "Engage Timing Perfection",
+    "tagList": {
+      "timeLine": "29:35:00",
+      "members": 4,
+      "difficulty": "hard"
+    },
+    "likes": 167,
+    "uploadDate": "2025-05-19T09:30:00Z",
+    "uploader": "EngageExpert"
+  },
+  {
+    "value": "Role2",
+    "icon": "scroll",
+    "title": "Map Awareness Enhancement",
+    "tagList": {
+      "timeLine": "13:40:00",
+      "members": 1,
+      "difficulty": "normal"
+    },
+    "likes": 54,
+    "uploadDate": "2025-05-18T16:20:00Z",
+    "uploader": "MapMaster"
+  },
+  {
+    "value": "Role2",
+    "icon": "gem",
+    "title": "Team Fight Positioning",
+    "tagList": {
+      "timeLine": "24:15:00",
+      "members": 5,
+      "difficulty": "hard"
+    },
+    "likes": 213,
+    "uploadDate": "2025-05-17T12:10:00Z",
+    "uploader": "PositionPro"
+  },
+  {
+    "value": "Role2",
+    "icon": "ring",
+    "title": "Utility Maximization",
+    "tagList": {
+      "timeLine": "17:30:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 89,
+    "uploadDate": "2025-05-16T13:45:00Z",
+    "uploader": "UtilityGuru"
+  },
+  {
+    "value": "Role2",
+    "icon": "book",
+    "title": "Shotcalling Fundamentals",
+    "tagList": {
+      "timeLine": "31:20:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 176,
+    "uploadDate": "2025-05-15T10:25:00Z",
+    "uploader": "CallMaster"
+  },
+  {
+    "value": "Role2",
+    "icon": "feather",
+    "title": "Roaming Support Guide",
+    "tagList": {
+      "timeLine": "20:10:00",
+      "members": 2,
+      "difficulty": "easy"
+    },
+    "likes": 67,
+    "uploadDate": "2025-05-14T15:35:00Z",
+    "uploader": "RoamSupport"
+  },
+  {
+    "value": "Role2",
+    "icon": "lantern",
+    "title": "Lane Protection Strategies",
+    "tagList": {
+      "timeLine": "18:55:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 95,
+    "uploadDate": "2025-05-13T11:50:00Z",
+    "uploader": "ProtectorPro"
+  },
+  {
+    "value": "Role3",
+    "icon": "hammer",
+    "title": "Jungle Pathing Optimization",
+    "tagList": {
+      "timeLine": "23:45:00",
+      "members": 1,
+      "difficulty": "normal"
+    },
+    "likes": 134,
+    "uploadDate": "2025-05-22T06:15:00Z",
+    "uploader": "PathMaster"
+  },
+  {
+    "value": "Role3",
+    "icon": "claw",
+    "title": "Gank Timing Mastery",
+    "tagList": {
+      "timeLine": "27:20:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 189,
+    "uploadDate": "2025-05-21T13:40:00Z",
+    "uploader": "GankKing"
+  },
+  {
+    "value": "Role3",
+    "icon": "trap",
+    "title": "Counter-jungling Tactics",
+    "tagList": {
+      "timeLine": "19:15:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 102,
+    "uploadDate": "2025-05-20T16:25:00Z",
+    "uploader": "CounterJungle"
+  },
+  {
+    "value": "Role3",
+    "icon": "fang",
+    "title": "Objective Control Guide",
+    "tagList": {
+      "timeLine": "30:50:00",
+      "members": 4,
+      "difficulty": "hard"
+    },
+    "likes": 245,
+    "uploadDate": "2025-05-19T08:10:00Z",
+    "uploader": "ObjectivePro"
+  },
+  {
+    "value": "Role3",
+    "icon": "eye",
+    "title": "Vision Denial Techniques",
+    "tagList": {
+      "timeLine": "15:35:00",
+      "members": 1,
+      "difficulty": "easy"
+    },
+    "likes": 73,
+    "uploadDate": "2025-05-18T14:55:00Z",
+    "uploader": "VisionDenial"
+  },
+  {
+    "value": "Role3",
+    "icon": "mask",
+    "title": "Stealth Ganking Strategies",
+    "tagList": {
+      "timeLine": "22:40:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 118,
+    "uploadDate": "2025-05-17T11:30:00Z",
+    "uploader": "StealthMaster"
+  },
+  {
+    "value": "Role3",
+    "icon": "compass",
+    "title": "Map Pressure Fundamentals",
+    "tagList": {
+      "timeLine": "25:15:00",
+      "members": 3,
+      "difficulty": "hard"
+    },
+    "likes": 156,
+    "uploadDate": "2025-05-16T09:45:00Z",
+    "uploader": "PressureKing"
+  },
+  {
+    "value": "Role3",
+    "icon": "horn",
+    "title": "Team Fight Initiation",
+    "tagList": {
+      "timeLine": "28:30:00",
+      "members": 5,
+      "difficulty": "hard"
+    },
+    "likes": 201,
+    "uploadDate": "2025-05-15T12:20:00Z",
+    "uploader": "InitiationPro"
+  },
+  {
+    "value": "Role3",
+    "icon": "coin",
+    "title": "Economy Management Tips",
+    "tagList": {
+      "timeLine": "16:25:00",
+      "members": 1,
+      "difficulty": "easy"
+    },
+    "likes": 58,
+    "uploadDate": "2025-05-14T17:10:00Z",
+    "uploader": "EconomyGuru"
+  },
+  {
+    "value": "Role3",
+    "icon": "shield-alt",
+    "title": "Defensive Jungling Guide",
+    "tagList": {
+      "timeLine": "21:50:00",
+      "members": 2,
+      "difficulty": "normal"
+    },
+    "likes": 84,
+    "uploadDate": "2025-05-13T13:35:00Z",
+    "uploader": "DefensiveJungle"
+  }
+]

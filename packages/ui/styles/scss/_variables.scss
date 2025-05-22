@@ -1,0 +1,40 @@
+/* _variables.scss */
+
+// media query variables
+$grid-breakpoints: (
+        mobile: 480px,
+        tablet: 768px,
+        labtop: 1024px,
+        desktop: 1280px
+);
+
+$font-size-map: (
+        body1: 1rem, // 16px(default)
+        body2: 0.875rem, // 14px
+        headline1: 2.125rem, // 34px
+        headline2: 1.5rem, // 24px
+        headline3: 1.3rem, // 16px
+        subtitle1: 1rem, // 16px
+        subtitle2: 0.875rem, // 14px
+        caption: 0.75rem, // 12px
+        overline: 0.625rem, // 10px
+        backgroundicon: 1.8rem // for-icon
+);
+
+$font-weight-map: (
+        thin: 100, // 100
+        extralight: 200, // 200
+        light: 300, // 300
+        regular: 400, // 400
+        medium: 500, // 500
+        semibold: 600, // 600
+        bold: 700, // 700
+        extrabold: 800, // 800
+        black: 900 // 900
+);
+
+@mixin base-setup{
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

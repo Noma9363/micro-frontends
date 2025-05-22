@@ -1,0 +1,38 @@
+/* mixin.scss */
+@import 'variables';
+
+// mobile ver 0 ~ 479px
+@mixin media-breakpoint-mobile-only {
+  @media all and (max-width: map-get($grid-breakpoints, mobile) - 1px) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up($size){
+  $min-width: map-get($grid-breakpoints, $size);
+  @media all and (min-width: $min-width){
+    @content;
+  }
+}
+
+// change Font Size
+@function font-size($name){
+  @return map-get($font-size-map, $name);
+}
+@mixin font-size($name){
+  font-size: font-size($name);
+}
+
+// change Font Weight
+@function font-weight($name){
+  @return map-get($font-weight-map, $name);
+}
+@mixin font-weight($name){
+  font-weight: font-weight($name);
+}
+
+@mixin set-initialize{
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}

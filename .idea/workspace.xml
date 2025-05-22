@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2fcb19-deec-4c07-9d2c-ce74c63ac98c" name="Changes" comment="" />
+    <list default="true" id="7f2fcb19-deec-4c07-9d2c-ce74c63ac98c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/styles/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/date/DateText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/NewsFeed.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/styles/NewsFeed.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/FilterTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/styles/FilterTab.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/FilterTabContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/styles/FilterTabContent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/NewsFeedItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/styles/NewsFeedItems.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabsDescription.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/store/zustand/productStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/types/builds/laneBuildItem.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/utils/buildItemTag/tagValidTagCheck.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/styles/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/inspire/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/data-context/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data-context/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +65,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wLQaF9ii1ogLsOIpNrrXTI5Smx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,11 +82,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "ts.external.directory.path": "C:\\Users\\test7\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\store\zustand" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\store" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\public\data\buildsTab" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\packages\ui\components" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\components\molecules\feedItem\news" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2">
@@ -53,10 +124,26 @@
       <option name="presentableId" value="Default" />
       <updated>1745818437145</updated>
       <workItem from="1745818439340" duration="87000" />
+      <workItem from="1745915118382" duration="2549000" />
+      <workItem from="1745981307268" duration="7889000" />
+      <workItem from="1746608260069" duration="591000" />
+      <workItem from="1746686259880" duration="2141000" />
+      <workItem from="1746688431195" duration="5480000" />
+      <workItem from="1746763661198" duration="888000" />
+      <workItem from="1747028654221" duration="11578000" />
+      <workItem from="1747111951666" duration="8724000" />
+      <workItem from="1747645570583" duration="5955000" />
+      <workItem from="1747702259956" duration="22435000" />
+      <workItem from="1747801172423" duration="13029000" />
+      <workItem from="1747886799939" duration="11194000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

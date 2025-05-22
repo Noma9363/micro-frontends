@@ -1,0 +1,18 @@
+[
+  {
+    "value": "All",
+    "desc": "this is All Tab"
+  },
+  {
+    "value": "Role1",
+    "desc": "this is Role1 Tab"
+  },
+  {
+    "value": "Role2",
+    "desc": "this is Role2 Tab"
+  },
+  {
+    "value": "Role3",
+    "desc": "this is Role3 Tab"
+  }
+]
