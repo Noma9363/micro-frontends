@@ -5,57 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2fcb19-deec-4c07-9d2c-ce74c63ac98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/styles/Card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/date/DateText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/NewsFeed.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/styles/NewsFeed.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/FilterTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/styles/FilterTab.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTab/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/FilterTabContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/styles/FilterTabContent.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/filterTabsContent/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/NewsFeedItems.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/styles/NewsFeedItems.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/organisms/newsFeedItems/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabItems.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/public/data/buildsTab/dummyTabsDescription.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/store/zustand/productStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/types/builds/laneBuildItem.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/utils/buildItemTag/tagValidTagCheck.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/styles/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/utils/timeAgo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/checkout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/host/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/inspire/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/inspire/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/data-context/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/data-context/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/utils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,20 +30,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "C:\\Users\\test7\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\test7\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\store\zustand" />
@@ -101,9 +63,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -136,6 +98,9 @@
       <workItem from="1747702259956" duration="22435000" />
       <workItem from="1747801172423" duration="13029000" />
       <workItem from="1747886799939" duration="11194000" />
+      <workItem from="1747976912709" duration="1430000" />
+      <workItem from="1747978367940" duration="971000" />
+      <workItem from="1747979358054" duration="7349000" />
     </task>
     <servers />
   </component>

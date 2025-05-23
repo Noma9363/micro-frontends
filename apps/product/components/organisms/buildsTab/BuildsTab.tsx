@@ -42,7 +42,7 @@ export const BuildsTab = ({...props}:BuildsTabProps)=>{
     useEffect(()=>{
         // title update
         const foundItem = tabItems.find(item=>item.value===activeTab);
-        setCurrentBannerTitle(foundItem?.title);
+        setCurrentBannerTitle(foundItem?.value);
         // desc update
         const foundDesc = activeTabDescription.find(desc=>desc.value === activeTab);
         setCurrentBannerDescription(foundDesc?.desc);

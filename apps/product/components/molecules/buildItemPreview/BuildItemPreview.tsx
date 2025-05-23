@@ -6,6 +6,7 @@ import {FlameIcon, LucideIcon, TimerIcon, UsersIcon} from "lucide-react";
 import {LaneBuildItemTagList} from "@/types/builds/laneBuildItem";
 import clsN from "classnames";
 import styles from './styles/BuildItemPreview.module.scss';
+import {timeAgo} from "@/utils/timeAgo.ts";
 
 interface BuildItemPreviewProps{
     title: string;
@@ -13,6 +14,18 @@ interface BuildItemPreviewProps{
     tagListItems : LaneBuildItemTagList;
     likes: number;
     uploadDate: Date;
+}
+type TagTypeKey = keyof LaneBuildItemTagList;
+type GetTitleFunction<T> = (value: T) => string;
+
+interface TagConfigItem<T extends TagTypeKey>{
+    icon: LucideIcon;
+    getTitle: GetTitleFunction<LaneBuildItemTagList[T] | undefined>;
+    badgeProps: {variant: "default"}
+}
+
+type TagSetUpConfig = {
+    [K in TagTypeKey]: TagConfigItem<K>
 }
 
 export const BuildItemPreview = (
@@ -24,15 +37,15 @@ export const BuildItemPreview = (
         uploadDate
     }:BuildItemPreviewProps) => {
 
-    const tagSetUpConfig = {
+    const tagSetUpConfig: TagSetUpConfig = {
         timeLine:{
             icon : TimerIcon,
-            getTitle: (value: string)=> value,
+            getTitle: (value)=> String(value), // type is LaneBuildItemTagList['timeLine']
             badgeProps: {variant: "default"}
         },
         members:{
             icon: UsersIcon,
-            getTitle: (value: number) => `${value}`,
+            getTitle: (value) => `${value}`,
             badgeProps: {variant: 'default'}
         },
         difficulty:{
@@ -45,9 +58,9 @@ export const BuildItemPreview = (
                     default : return 'unknown';
                 }
             },
-            badgeProps: {variant: 'default'}
+            badgeProps: {variant: 'default' }
         }
-    }
+    } as const;
 
     return (
         <Card className={clsN(styles.card)}>
@@ -64,13 +77,22 @@ export const BuildItemPreview = (
             <Card className={clsN(styles['card--container'])}>
                 <CardTitle>{title}</CardTitle>
                 {
-                    Object.entries(tagListItems).map(([key,value])=>{
-                        const tagListConfig = tagSetUpConfig[key as keyof typeof tagSetUpConfig];
-                        if(!tagListConfig || value == undefined){
+                    Object.entries(tagListItems).map(([key,rawValue])=>{
+                        if(!(key in tagSetUpConfig)){
                             return null;
                         }
+                        const typedKey = key as TagTypeKey;
+                        const tagListConfig = tagSetUpConfig[typedKey];
+
+                        if(rawValue === undefined || rawValue === null){
+                            return null;
+                        }
+                        // make value matched as individual keys
+                        const value = rawValue;
+
                         const IconComponent = tagListConfig.icon;
-                        const titleText = tagListConfig.getTitle(value as string);
+                        const titleText = tagListConfig.getTitle(value);
+
                         return(
                             <IconBadge
                                 key={key}
@@ -81,7 +103,7 @@ export const BuildItemPreview = (
                         )
                     })
                 }
-                <CardFooter>{`${likes} Likes • ${uploadDate} Ago`}</CardFooter>
+                <CardFooter>{`${likes} Likes • ${timeAgo(uploadDate)} Ago`}</CardFooter>
             </Card>
         </Card>
     )
