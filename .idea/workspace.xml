@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2fcb19-deec-4c07-9d2c-ce74c63ac98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/product/utils/timeAgo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/Divider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/styles/Divider.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/pages/dummyIndex.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/@radix-ui/react-tabs/dist/index.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/@repo/ui/styles/index.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/@repo/ui/styles/scss/_variables.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/@repo/ui/styles/scss/mixin.scss" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/next/types/global.d.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -63,9 +81,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <method v="2">
-        <option name="nim.task.build.to.cache" enabled="true" />
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -101,6 +119,7 @@
       <workItem from="1747976912709" duration="1430000" />
       <workItem from="1747978367940" duration="971000" />
       <workItem from="1747979358054" duration="7349000" />
+      <workItem from="1748325816254" duration="8868000" />
     </task>
     <servers />
   </component>

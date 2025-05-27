@@ -2,13 +2,57 @@
 
 .card{
   display: flex;
+  gap: 8px;
+  padding: 8px;
   &--container{ // modifier container role
-
+    flex: 0;
+    border: none;
+    box-shadow: none;
     &:last-child{
       flex: auto;
     }
   }
+  &__avatar{
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  &__content{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  &__title{
+    @include font-size(body2);
+    @include font-weight(bold);
+
+  }
+  &__badge{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+  &__footer{
+    padding: inherit;
+    @include font-size(subtitle2)
+  }
+}
 
 
+
+.avatar{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  &--image{
+    border-radius: 24px;
+  }
+  &--fallback{
+    @include sr-only();
+  }
+}
+
+.badge{
 
 }

@@ -1,7 +1,90 @@
 @import "./index";
+.divider{
+  /*
+    <div className={styles['divider']}/>
+  */
+  padding: 8px 0;
+}
+.card{
+  &--container{
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: 428px;
+  }
+  &__content{
+    background-color: rgba(0, 0, 0, 0.14);
+    border-radius: 16px;
+  }
+  &__header{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 8px;
 
-.card-root{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+  }
+  &__body{
+    flex: 3;
+    box-shadow: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 8px;
+    overflow-y: scroll;
+    position: relative;
+    &::-webkit-scrollbar{
+      position: absolute;
+
+      width: 8px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    &::-webkit-scrollbar-button{
+      background-color: red;
+      height: 0;
+    }
+    &::-webkit-scrollbar-thumb{
+      background-color: #707070FF;
+      border-radius: 24px;
+    }
+  }
+}
+
+.tab{
+
+  &--container{
+
+  }
+  &__filter{
+
+  }
+  &__content{
+    height: 100%;
+  }
+}
+
+@include media-breakpoint-mobile-only(){
+  .card{
+    &--container {
+
+    }
+  }
+}
+
+@include media-breakpoint-up(tablet){
+
+}
+
+@include media-breakpoint-up(labtop){
+
+}
+
+@include media-breakpoint-up(desktop){
+
 }

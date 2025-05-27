@@ -14,7 +14,7 @@ interface IconBadgeProps {
 export const IconBadge =({icon: Icon, title, badgeProps}:IconBadgeProps)=>{
     return(
         <Badge className={clsN(styles.badge)} {...badgeProps}>
-            {Icon && (<Icon/>)}
+            {Icon && (<Icon className={clsN(styles['badge--icon'])} />)}
             {title && <div className={clsN(styles.badge__title)}>{title}</div>}
         </Badge>
     )

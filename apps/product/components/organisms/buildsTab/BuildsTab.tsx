@@ -76,34 +76,33 @@ export const BuildsTab = ({...props}:BuildsTabProps)=>{
     }
 
     return(
-        <Card className={clsN(styles['card-root'])}>
-            <Tabs value={activeTab} onValueChange={handleTabChange}>
+        <Card className={clsN(styles['card--container'])}>
+            <Tabs value={activeTab} onValueChange={handleTabChange} className={clsN(styles['card__content'], styles['card__header'])}>
                 <FilterTab tabValueList={tabValueList} value={activeTab} />
-                <TabsContent value={activeTab}>
+                <TabsContent value={activeTab} className={clsN(styles['tab__content'])}>
                     <BuildCardBanner
                         bannerTitle={currentBannerTitle}
                         bannerDescription={currentBannerDescription}
                         onButtonClick={handleShowDetailClick}
                     />
                 </TabsContent>
-
-                <Card>
-                    {
-                        filteredTabItems.map(item => {
-                            // TODO: const icon mapping set =...
-                            return(
-                                <BuildItemPreview
-                                    title={item.title}
-                                    icon={TimerIcon}
-                                    tagListItems={item.tagList}
-                                    likes={item.likes}
-                                    uploadDate={item.uploadDate}
-                                />
-                            )
-                        })
-                    }
-                </Card>
             </Tabs>
+            <Card className={clsN(styles['card__content'], styles['card__body'])}>
+                {
+                    filteredTabItems.map(item => {
+                        // TODO: const icon mapping set =...
+                        return(
+                            <BuildItemPreview
+                                title={item.title}
+                                icon={TimerIcon}
+                                tagListItems={item.tagList}
+                                likes={item.likes}
+                                uploadDate={item.uploadDate}
+                            />
+                        )
+                    })
+                }
+            </Card>
         </Card>
     )
 }

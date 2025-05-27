@@ -1,1 +1,16 @@
 @import "./index";
+
+.card{
+  &--container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  &__header{
+    flex: 1;
+  }
+  &__footer{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,7 +1,11 @@
-import {Button} from "../components/atoms/button/Button.tsx"
+import {Button} from "@repo/ui/components/button.tsx"
 import {NewsFeed} from "@/components/molecules/feedItem/newsFeed/NewsFeed.tsx";
 import {NewsFeedFront, NewsFeedItems} from "@/components/organisms/newsFeedItems/NewsFeedItems.tsx";
 import {BuildsTab} from "@/components/organisms/buildsTab/BuildsTab.tsx";
+import {Divider} from "@/components/atoms/divider/Divider.tsx";
+import clsN from "classnames";
+import styles from './dummyIndex.module.scss';
+import {Card} from "@repo/ui/components/card.tsx";
 export default function Home() {
 
     const newsFeedItems: NewsFeedFront[] = [
@@ -22,22 +26,28 @@ export default function Home() {
         }
     ];
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="container flex flex-col items-center text-center gap-4">
-        <h2 className="text-2xl font-bold leading-tight tracking-tighter md:text-3xl mb-1">
-          Product Application
+    <main className={clsN("flex min-h-screen flex-col items-center justify-center p-24", styles['main'])}>
+        <div className="container flex flex-col items-center text-center gap-4">
+        <h2 className="text-left font-bold leading-tight tracking-tighter md:text-3xl mb-1">
+          TITLE_HERE
         </h2>
-        <p className="max-w-3xl text-lg text-muted-foreground">
-          This is the product application that maintained by the{" "}
-          <strong>Product Team</strong>
-
+        <p className="text-lg text-muted-foreground">
+          <strong>RPG FPS TPS MMO</strong>
         </p>
-      </div>
-      <Button/>
-        <NewsFeedItems
-            newsIFeeds={newsFeedItems}
-        />
-        <BuildsTab/>
+        <p className="text-lg text-muted-foreground py-10 text-left">
+            Lorem ipsum dolor sit amet consectetur. Pellentesque adipiscing ultrices tortor tincidunt tincidunt etiam a eu. Sit ipsum aliquam id vel eu tempor faucibus nisl at.
+        </p>
+        </div>
+        <Card className={styles['button-place']}>
+            <Button variant="destructive" >START NOW!</Button>
+            <Button variant="secondary" >CLASS</Button>
+            <Button variant="secondary" >ITEMS</Button>
+        </Card>
+      <NewsFeedItems
+          newsIFeeds={newsFeedItems}
+      />
+      <Divider/>
+      <BuildsTab/>
     </main>
   );
 }

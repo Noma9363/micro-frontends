@@ -2,6 +2,8 @@ import React from 'react';
 import {Card} from "@/components/atoms/card/Card.tsx";
 import {CardDescription, CardFooter, CardHeader, CardTitle} from "@repo/ui/components/card.tsx";
 import {Button} from "@repo/ui/components/button.tsx";
+import clsN from "classnames";
+import styles from './styles/BuildCardBanner.module.scss'
 
 interface BuildCardBannerProps{
     bannerTitle?: string;
@@ -11,14 +13,14 @@ interface BuildCardBannerProps{
 
 export const BuildCardBanner = ({onButtonClick,bannerTitle, bannerDescription}:BuildCardBannerProps) => {
     return(
-        <Card>
+        <Card className={clsN(styles['card--container'])}>
             {(bannerTitle || bannerDescription) && (
-                    <CardHeader>
+                    <CardHeader className={clsN(styles['card__header'])}>
                         {bannerTitle && <CardTitle>{bannerTitle}</CardTitle>}
                         {bannerDescription && <CardDescription>{bannerDescription}</CardDescription>}
                     </CardHeader>
             )}
-            <CardFooter>
+            <CardFooter className={clsN(styles['card__footer'])}>
                 <Button onClick={onButtonClick}>view all builds</Button>
             </CardFooter>
         </Card>

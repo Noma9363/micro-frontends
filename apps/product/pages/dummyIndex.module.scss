@@ -1,0 +1,34 @@
+@import '@repo/ui/styles/index';
+
+.main{
+  margin: 0 auto;
+}
+.button-place{
+  display: flex;
+  box-shadow: none;
+  gap: 8px;
+  border: none;
+}
+@include media-breakpoint-mobile-only(){
+  .main{
+
+  }
+}
+
+@include media-breakpoint-up(tablet){
+  .main{
+
+  }
+}
+
+@include media-breakpoint-up(labtop){
+  .main{
+
+  }
+}
+
+@include media-breakpoint-up(desktop){
+  .main{
+    width: 1140px;
+  }
+}

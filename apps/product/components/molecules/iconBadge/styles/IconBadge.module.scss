@@ -1,7 +1,18 @@
 @import "./index";
 
 .badge{
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 2px 6px;
+
+  &--icon{
+    aspect-ratio: 1/1;
+    width: 20px;
+
+  }
   &__title{
     padding-left: 8px;
+    @include font-size(subtitle2);
+    @include font-weight(regular);
   }
+
 }
