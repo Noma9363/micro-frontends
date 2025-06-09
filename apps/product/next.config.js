@@ -1,4 +1,5 @@
 const NextFederationPlugin = require("@module-federation/nextjs-mf");
+const path = require('path');
 
 const CHECKOUT_APP_URL =
   process.env.NEXT_PUBLIC_CHECKOUT_APP_URL || "http://localhost:3002";
@@ -25,26 +26,35 @@ const nextConfig = {
   },
   transpilePackages: ["@repo/data-context", "@repo/ui", "@repo/utils"],
   webpack(config, { isServer }) {
-    config.plugins.push(
-      new NextFederationPlugin({
-        name: "product",
-        remotes: remotes(isServer),
-        filename: "static/chunks/remoteEntry.js",
-        exposes: {
-          "./products": "./pages/products/index",
-          "./product": "./pages/products/[id]",
-          "./search": "./components/search",
-          "./latest-products": "./components/latest-products",
-          "./related-products": "./components/related-products",
-          "./pages-map": "./pages-map.js",
-        },
-        extraOptions: {
-          exposePages: true,
-        },
-      })
-    );
 
-    return config;
+      // path setting
+      config.resolve.alias = {
+          ...config.resolve.alias,
+          // fix directory packages/ui...
+          '@/lib': path.resolve(__dirname,'../../packages/ui/lib'),
+          '@/components/': path.resolve(__dirname, '../../packages/ui/components')
+      }
+
+      config.plugins.push(
+          new NextFederationPlugin({
+              name: "product",
+              remotes: remotes(isServer),
+              filename: "static/chunks/remoteEntry.js",
+              exposes: {
+                  "./products": "./pages/products/index",
+                  "./product": "./pages/products/[id]",
+                  "./search": "./components/search",
+                  "./latest-products": "./components/latest-products",
+                  "./related-products": "./components/related-products",
+                  "./pages-map": "./pages-map.js",
+              },
+              extraOptions: {
+                  exposePages: true,
+              },
+          })
+      );
+
+        return config;
   },
 };
 

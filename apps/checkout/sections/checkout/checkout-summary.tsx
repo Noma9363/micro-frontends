@@ -7,10 +7,10 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@repo/ui/components/card";
+} from "../../../../packages/ui/components/ui/card.tsx";
 import { Separator } from "@repo/ui/components/separator";
 import { Input } from "@repo/ui/components/input";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../packages/ui/components/ui/button.tsx";
 
 // ----------------------------------------------------------------------
 

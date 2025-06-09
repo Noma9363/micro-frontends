@@ -6,7 +6,7 @@ import {
   CarouselContent,
   CarouselItem,
   type CarouselApi,
-} from "@repo/ui/components/carousel";
+} from "../../../../packages/ui/components/ui/carousel.tsx";
 import { AspectRatio } from "@repo/ui/components/aspect-ratio";
 import Image from "next/image";
 import { cn } from "@repo/ui/lib/utils";

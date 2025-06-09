@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useAppSelector } from "@repo/data-context/hooks";
 import { CheckoutState } from "@repo/data-context/reducers/checkout-reducer";
 // components
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../packages/ui/components/ui/button.tsx";
 import { Badge } from "@repo/ui/components/badge";
 import { Iconify } from "@repo/ui/components/iconify";
 // routes

@@ -2,7 +2,7 @@ import Link from "next/link";
 // utils
 import { cn } from "@repo/ui/lib/utils";
 // components
-import { buttonVariants } from "@repo/ui/components/button";
+import { buttonVariants } from "../../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 
 export default function HomeHero() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card} from "@/components/atoms/card/Card.tsx";
-import {CardDescription, CardFooter, CardHeader, CardTitle} from "@repo/ui/components/card.tsx";
-import {Button} from "@repo/ui/components/button.tsx";
+import {CardDescription, CardFooter, CardHeader, CardTitle} from "../../../../../packages/ui/components/ui/card.tsx";
+import {Button} from "../../../../../packages/ui/components/ui/button.tsx";
 import clsN from "classnames";
 import styles from './styles/BuildCardBanner.module.scss'
 

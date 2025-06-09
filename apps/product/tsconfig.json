@@ -9,7 +9,8 @@
     "paths": {
       "@/*": ["./*"],
       "@/store/*": ["./store/*"],
-      "@shad-ui/*": ["../../../packages/ui/components/*"]
+      "@shad-ui/*": ["../../../packages/ui/components/*"],
+      "@repo/ui/*": ["../../packages/ui/*"]
     }
   },
   "include": [

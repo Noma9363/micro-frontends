@@ -3,7 +3,7 @@
 import { Iconify } from "./iconify";
 import { useTheme } from "next-themes";
 
-import { Button } from "./button";
+import { Button } from "./ui/button.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,

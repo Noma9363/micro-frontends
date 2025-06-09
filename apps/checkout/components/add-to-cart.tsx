@@ -1,4 +1,4 @@
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 import { useCallback } from "react";
 import { ICheckoutItem } from "@repo/data-context/types/checkout";

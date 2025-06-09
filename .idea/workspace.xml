@@ -5,21 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2fcb19-deec-4c07-9d2c-ce74c63ac98c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/Divider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/styles/Divider.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/divider/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/product/pages/dummyIndex.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/navigationLink/NavigationLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/navigationLink/styles/NavigationLink.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/atoms/navigationLink/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/commons/navigation/headerMenu/HeaderMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/commons/navigation/headerMenu/styles/HeaderMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/commons/navigation/headerMenu/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/listItem/ListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/listItem/styles/ListItem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/listItem/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/navigation/headerNavigation/ExampleHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/navigation/headerNavigation/HeaderNavigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/navigation/headerNavigation/styles/HeaderNavigation.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/components/molecules/navigation/headerNavigation/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/public/data/header/header-navigation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/interfaces/navigation/navigation.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/ui/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/components/add-to-cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/components/add-to-cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/components/cart-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/components/cart-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-billing-address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-billing-address.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-billing-info.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-billing-info.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-cart-product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-cart-product.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-delivery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-delivery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-order-complete.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-order-complete.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-payment-methods.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-payment-methods.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-payment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-payment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/checkout/sections/checkout/checkout-summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/components/code-block-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/components/code-block-wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/components/copy-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/components/copy-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/docs/docs-pager.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/docs/docs-pager.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/home/home-hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/home/home-hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/common/user-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/common/user-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-mobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/host/sections/layouts/nav/nav-mobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/atoms/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/atoms/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/atoms/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/atoms/card/Card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/BuildCardBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildCardBanner/styles/BuildCardBanner.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/BuildItemPreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/buildItemPreview/styles/BuildItemPreview.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/IconBadge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/iconBadge/styles/IconBadge.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/BuildsTab.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/organisms/buildsTab/styles/BuildsTab.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/NewsFeed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/molecules/feedItem/newsFeed/NewsFeed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/components/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/components/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/product/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/styles/scss/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/sections/product/product-details-carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/sections/product/product-details-summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/sections/product/product-details-summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/sections/product/view/product-shop-details-view.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/sections/product/view/product-shop-details-view.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/ui/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/ui/carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/color-utils/color-picker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/color-utils/color-picker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/incrementer-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/ui/incrementer-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/theme-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/theme-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +70,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/node_modules/@radix-ui/react-tabs/dist/index.d.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/node_modules/@repo/ui/styles/index.scss" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/node_modules/@repo/ui/styles/scss/_variables.scss" root0="SKIP_INSPECTION" />
@@ -60,6 +101,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\test7\\AppData\\Roaming\\npm\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TypeScript JSX&quot;
+    ]
   }
 }</component>
   <component name="ReactDesignerToolWindowState">
@@ -73,17 +119,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\components\molecules\navigation" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\components\molecules" />
+      <recent name="E:\intelli\shop-web-header\micro-frontends\packages\ui\components\ui" />
       <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\store\zustand" />
       <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\store" />
-      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\public\data\buildsTab" />
-      <recent name="E:\intelli\shop-web-header\micro-frontends\packages\ui\components" />
-      <recent name="E:\intelli\shop-web-header\micro-frontends\apps\product\components\molecules\feedItem\news" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -120,6 +166,11 @@
       <workItem from="1747978367940" duration="971000" />
       <workItem from="1747979358054" duration="7349000" />
       <workItem from="1748325816254" duration="8868000" />
+      <workItem from="1748410450860" duration="1344000" />
+      <workItem from="1748412385564" duration="8117000" />
+      <workItem from="1749012516418" duration="8452000" />
+      <workItem from="1749105454607" duration="11044000" />
+      <workItem from="1749452481410" duration="4960000" />
     </task>
     <servers />
   </component>

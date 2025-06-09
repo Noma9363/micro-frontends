@@ -1,11 +1,13 @@
-import {Button} from "@repo/ui/components/button.tsx"
+import {Button} from "../../../packages/ui/components/ui/button.tsx"
 import {NewsFeed} from "@/components/molecules/feedItem/newsFeed/NewsFeed.tsx";
 import {NewsFeedFront, NewsFeedItems} from "@/components/organisms/newsFeedItems/NewsFeedItems.tsx";
 import {BuildsTab} from "@/components/organisms/buildsTab/BuildsTab.tsx";
 import {Divider} from "@/components/atoms/divider/Divider.tsx";
 import clsN from "classnames";
 import styles from './dummyIndex.module.scss';
-import {Card} from "@repo/ui/components/card.tsx";
+import {Card} from "../../../packages/ui/components/ui/card.tsx";
+import {HeaderNavigation} from "@/components/molecules/navigation/headerNavigation/HeaderNavigation.tsx";
+import {HeaderMenu} from "@/components/commons/navigation/headerMenu/HeaderMenu.tsx";
 export default function Home() {
 
     const newsFeedItems: NewsFeedFront[] = [
@@ -27,6 +29,8 @@ export default function Home() {
     ];
   return (
     <main className={clsN("flex min-h-screen flex-col items-center justify-center p-24", styles['main'])}>
+        <HeaderNavigation/>
+        <HeaderMenu/>
         <div className="container flex flex-col items-center text-center gap-4">
         <h2 className="text-left font-bold leading-tight tracking-tighter md:text-3xl mb-1">
           TITLE_HERE

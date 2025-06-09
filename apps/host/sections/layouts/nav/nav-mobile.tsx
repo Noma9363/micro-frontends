@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { cn } from "@repo/ui/lib/utils";
 // components
 import { Iconify } from "@repo/ui/components/iconify";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../../packages/ui/components/ui/button.tsx";
 import { ScrollArea } from "@repo/ui/components/scroll-area";
 import { Sheet, SheetContent, SheetTrigger } from "@repo/ui/components/sheet";
 import { Logo } from "@repo/ui/components/logo";

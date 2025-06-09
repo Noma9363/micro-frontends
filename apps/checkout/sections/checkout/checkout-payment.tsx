@@ -13,7 +13,7 @@ import {
 } from "@repo/data-context/reducers/checkout-reducer";
 // components
 import { Form } from "@repo/ui/components/form";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 // types
 import type {

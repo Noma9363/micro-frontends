@@ -15,9 +15,9 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@repo/ui/components/card";
+} from "../../../../packages/ui/components/ui/card.tsx";
 import EmptyContent from "@repo/ui/components/empty-content";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../packages/ui/components/ui/button";
 import { Iconify } from "@repo/ui/components/iconify";
 // types
 import type { ICheckoutItem } from "@repo/data-context/types/checkout";

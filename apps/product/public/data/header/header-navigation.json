@@ -1,0 +1,61 @@
+[
+  {
+    "id": "gamelist",
+    "title": "GameList",
+    "href": "/",
+    "hasDropDown": true,
+    "children": [
+      {
+        "id": "lol",
+        "title": "League of Legends",
+        "description": "what is this lol",
+        "href": "/games/league-of-legends"
+      },
+      {
+        "id": "cod-warzone",
+        "title": "Call of duty: WarZone",
+        "description": "american sudden attack",
+        "href": "/games/cod-warzone"
+      },
+      {
+        "id": "elden-ring",
+        "title": "Elden Ring: Nightreign",
+        "description": "where's Miyazaki???",
+        "href": "/games/elden-ring"
+      }
+    ]
+  },
+  {
+    "id": "news",
+    "title": "News",
+    "href": "/news"
+  },
+  {
+    "id": "about",
+    "title": "About",
+    "href": "/about"
+  },
+  {
+    "id": "support",
+    "title": "Support",
+    "href": "/support",
+    "hasDropDown": true,
+    "children": [
+      {
+        "id": "support-option-1",
+        "title": "option-1",
+        "href": "/support/option-1"
+      },
+      {
+        "id": "support-option-2",
+        "title": "option-2",
+        "href": "/support/option-2"
+      },
+      {
+        "id": "support-option-3",
+        "title": "option-3",
+        "href": "/support/option-3"
+      }
+    ]
+  }
+]

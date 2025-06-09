@@ -1,5 +1,5 @@
 import React, {ComponentProps} from 'react';
-import {Card, CardDescription, CardFooter, CardTitle} from "@repo/ui/components/card.tsx";
+import {Card, CardDescription, CardFooter, CardTitle} from "../../../../../packages/ui/components/ui/card.tsx";
 import {Avatar, AvatarImage, AvatarFallback} from "@repo/ui/components/avatar.tsx";
 import {IconBadge} from "@/components/molecules/iconBadge/IconBadge.tsx";
 import {FlameIcon, LucideIcon, TimerIcon, UsersIcon} from "lucide-react";

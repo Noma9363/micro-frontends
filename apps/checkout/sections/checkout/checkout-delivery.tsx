@@ -6,7 +6,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@repo/ui/components/card";
+} from "../../../../packages/ui/components/ui/card.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 // utils
 import { cn } from "@repo/ui/lib/utils";

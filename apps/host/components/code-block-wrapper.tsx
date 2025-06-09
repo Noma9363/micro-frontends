@@ -3,7 +3,7 @@
 import * as React from "react";
 
 import { cn } from "@repo/ui/lib/utils";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../packages/ui/components/ui/button.tsx";
 import {
   Collapsible,
   CollapsibleContent,

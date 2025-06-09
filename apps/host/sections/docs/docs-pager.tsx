@@ -6,7 +6,7 @@ import { SidebarNavItem } from "@/types/nav";
 // routes
 import { docs } from "@/utils/routes/docs";
 import { cn } from "@repo/ui/lib/utils";
-import { buttonVariants } from "@repo/ui/components/button";
+import { buttonVariants } from "../../../../packages/ui/components/ui/button.tsx";
 
 interface DocsPagerProps {
   doc: Doc;

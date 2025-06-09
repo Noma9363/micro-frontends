@@ -8,7 +8,7 @@ import { paths } from "@repo/utils/routes/paths";
 // api
 import { useGetProduct } from "@/api/product";
 // components
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 import { Breadcrumbs } from "@repo/ui/components/breadcrumbs";
 //

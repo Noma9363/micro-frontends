@@ -1,12 +1,12 @@
 // components
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "@repo/ui/components/card";
+} from "../../../../packages/ui/components/ui/card.tsx";
 // types
 import type { IAddressItem } from "@repo/data-context/types/address";
 

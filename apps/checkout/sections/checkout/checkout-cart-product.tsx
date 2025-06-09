@@ -4,8 +4,8 @@ import type { ICheckoutItem } from "@repo/data-context/types/checkout";
 // components
 import { TableCell, TableRow } from "@repo/ui/components/table";
 import { AspectRatio } from "@repo/ui/components/aspect-ratio";
-import { IncrementerButton } from "@repo/ui/components/incrementer-button";
-import { Button } from "@repo/ui/components/button";
+import { IncrementerButton } from "../../../../packages/ui/components/ui/incrementer-button.tsx";
+import { Button } from "../../../../packages/ui/components/ui/button.tsx";
 import { Iconify } from "@repo/ui/components/iconify";
 import { Separator } from "@repo/ui/components/separator";
 import ColorPreview from "@repo/ui/components/color-utils/color-preview";

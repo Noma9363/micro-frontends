@@ -15,7 +15,7 @@ import {
 } from "@repo/ui/components/select";
 import { Separator } from "@repo/ui/components/separator";
 import { Badge } from "@repo/ui/components/badge";
-import { IncrementerButton } from "@repo/ui/components/incrementer-button";
+import { IncrementerButton } from "../../../../packages/ui/components/ui/incrementer-button.tsx";
 import Rating from "@repo/ui/components/rating";
 import { ButtonSkeleton } from "@repo/ui/components/skeletons/button-skeleton";
 // utils

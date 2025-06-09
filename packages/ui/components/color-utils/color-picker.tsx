@@ -1,5 +1,5 @@
 import { forwardRef, useCallback } from "react";
-import { Button } from "../button";
+import { Button } from "../ui/button.tsx";
 import { Iconify } from "../iconify";
 import { getContrastText } from "@repo/utils/color";
 import { cn } from "../../lib/utils";

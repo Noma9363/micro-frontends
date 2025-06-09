@@ -12,7 +12,7 @@ import { paths } from "@repo/utils/routes/paths";
 // utils
 import { cn } from "@repo/ui/lib/utils";
 // components
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../packages/ui/components/ui/button";
 import {
   CommandDialog,
   CommandEmpty,

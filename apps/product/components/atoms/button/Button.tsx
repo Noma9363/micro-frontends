@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button as ShadButton } from '@repo/ui/components/button.tsx';
+import { Button as ShadButton } from '../../../../../packages/ui/components/ui/button.tsx';
 
 export const Button = () => {
     return (

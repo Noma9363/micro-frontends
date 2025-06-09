@@ -1,8 +1,8 @@
 import React, { forwardRef } from "react";
 //
-import { Iconify } from "./iconify";
-import { Button } from "./button";
-import { cn } from "../lib/utils";
+import { Iconify } from "../iconify.tsx";
+import { Button } from "./button.tsx";
+import { cn } from "../../lib/utils.ts";
 
 // ----------------------------------------------------------------------
 

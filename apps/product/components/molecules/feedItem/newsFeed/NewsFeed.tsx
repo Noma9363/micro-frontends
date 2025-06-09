@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card} from '@/components/atoms/card/Card';
-import {CardHeader, CardTitle, CardDescription, CardContent} from "@repo/ui/components/card.tsx";
+import {CardHeader, CardTitle, CardDescription, CardContent} from "../../../../../../packages/ui/components/ui/card.tsx";
 import clsN from 'classnames';
 import styles from './styles/NewsFeed.module.scss';
 

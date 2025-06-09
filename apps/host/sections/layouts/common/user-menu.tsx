@@ -4,7 +4,7 @@ import {
   AvatarFallback,
   AvatarImage,
 } from "@repo/ui/components/avatar";
-import { Button } from "@repo/ui/components/button";
+import { Button } from "../../../../../packages/ui/components/ui/button.tsx";
 import {
   DropdownMenu,
   DropdownMenuContent,

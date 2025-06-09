@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card as ShadCard} from '@repo/ui/components/card';
+import {Card as ShadCard} from '../../../../../packages/ui/components/ui/card.tsx';
 
 interface CardProps{
     className?: string;
